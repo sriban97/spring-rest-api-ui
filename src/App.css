@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  height: 200px !important;
+  min-height: 200px !important;
+  max-height: 200px !important;
+  
+}
+table tr th {
+  text-align: left;
+  background: gray;
+  color: white;
+}
+
+table tr td {
+  border: 1px solid #282c34;
+}
